@@ -1,9 +1,9 @@
-##Django form
+##  Django form
 
 
 ### Prerequisites
 
-This is app was developed on Python 3.7.5. 
+This app was developed on Python 3.7.5. 
 
 ### Installation
 

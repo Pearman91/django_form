@@ -9,7 +9,6 @@ def index(request):
         form = EntrepreneurForm(data=request.POST)
         if form.is_valid():
             form.save()
-            messages.info(request, 'Submission was successful')
             return render(request, 'index.html', context={'form': EntrepreneurForm()})
         else:
             print('----> form errors: ', form.errors)
